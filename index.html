@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Daito's Blog</title>
+<meta name="description" content="Daito's Blogは、毎週月曜日・金曜日配信のブログです！">
+<link rel="stylesheet" href="common/css/normalize.css">
+<link rel="stylesheet" href="common/css/style.css">
+
+<script src="common/js/jquery-1.10.1.min.js"></script>
+<script src="common/js/jquery.bxslider/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="common/js/jquery.bxslider/jquery.bxslider.css">
+<script>
+$(document).ready(function() {
+  $('.bxslider').bxSlider({
+    auto: true,
+    speed: 1000,
+    pause: 4000
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="page">
+
+<header id="pageHead">
+	<h1 id="siteTitle">Daito's Blog</h1>
+	<p id="catchcopy">旅行日記や、普段の生活の出来事などを毎週配信中</p>
+	<nav class="globalNavi">
+		<ul>
+			<li class="current"><a href="index.html">ホーム</a></li>
+			<li><a href="about/index.html">管理人について</a></li>
+			<li><a href="portfolio/index.html">記事一覧</a></li>
+			<li><a href="contact/index.html">お問い合わせ</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="pageBody">
+	<section class="mainVisual">
+		<ul class="bxslider">
+			<li>
+				<div class="mainVisualText">
+					<h1>普段の出来事</h1>
+					<p>普段生活していて、<br>不思議に思うことや、面白いことを発信中</p>
+				</div>
+				<img src="images/DSC_0129.JPG" width="980" height="500" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>旅行日記</h1>
+					<p>ダイナミックな写真と映像をご覧ください！</p>
+				</div>
+				<img src="images/DSC_0721.JPG" width="980" height="500" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>その他</h1>
+					<p>その他いろいろなことを発信中！</p>
+				</div>
+				<img src="images/CSC_0033.JPG" width="980" height="500" alt="">
+			</li>
+		</ul>
+	</section>
+
+	<section class="portfolioIndex">
+		<article>
+			<a href="portfolio/03.html"><img src="portfolio/images/index_03.jpg" width="300" height="163" alt=""></a>
+			<h2><a href="portfolio/03.html">近日公開予定</a></h2>
+			<p>近日公開予定</p>
+		</article>
+		<article>
+			<a href="portfolio/02.html"><img src="portfolio/images/index_02.jpg" width="300" height="163" alt=""></a>
+			<h2><a href="portfolio/02.html">手作りゲーム</a></h2>
+			<p>このサイトでは１０個のゲームがあります。神経衰弱や卓球などいろいろあるので試してみてください。</p>
+		</article>
+		<article>
+			<a href="portfolio/01.html"><img src="portfolio/images/DSC_0140.JPG" width="300" height="163" alt=""></a>
+			<h2><a href="portfolio/01.html">初めまして！</a></h2>
+			<p>初めまして！僕の名前はDaitoです。<br>読者の皆様はお元気ですか。</p>
+		</article>
+	</section>
+
+	<section class="news">
+		<h1>おしらせ</h1>
+		<table>
+			<tr>
+				<th><time datetime="2017-09-01">2017年09月1日</time></th>
+				<td>もうすぐサイトがオープン！</td>
+			</tr>
+			<tr>
+				<th><time datetime="2017-08-23">2017年8月23日</time></th>
+				<td>
+					ただいまサイトを制作中！
+				</td>
+			</tr>
+		</table>
+	</section>
+
+</div>
+
+<p class="pagetop"><a href="#page">ページの先頭へ戻る</a></p>
+
+<footer id="pageFoot">
+	<p id="copyright"><small>Copyright&copy; 2017 @Daito's Blog All Rights Reserved.</small></p>
+</footer>
+
+</div>
+
+</body>
+</html>
